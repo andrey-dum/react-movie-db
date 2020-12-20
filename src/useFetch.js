@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { REACT_APP_MOVIE_API_KEY } from './api'
 const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${REACT_APP_MOVIE_API_KEY}`
-// const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIE_API_KEY}`
 
 const useFetch = (urlParams) => {
 

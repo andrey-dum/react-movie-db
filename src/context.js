@@ -3,7 +3,6 @@ import { REACT_APP_MOVIE_API_KEY } from './api'
 // make sure to use https
 import useFetch from './useFetch'
 export const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${REACT_APP_MOVIE_API_KEY}`
-// export const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIE_API_KEY}`
 const AppContext = React.createContext()
 
 const AppProvider = ({ children }) => {

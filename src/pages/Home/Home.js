@@ -1,13 +1,14 @@
   
 import React from 'react'
-// import SearchForm from '../../components/SearchForm/SearchForm'
+
 import Movies from '../../components/Movies/Movies'
+import SearchForm from '../../components/SearchFrom/SearchFrom'
 
 
 const Home = () => {
   return (
     <main>
-      {/* <SearchForm /> */}
+      <SearchForm />
       <Movies />
     </main>
   )
